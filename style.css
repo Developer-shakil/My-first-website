@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+  clear: both;
+}
+.text-orange {
+  color: orange;
+}
+.mt-20 {
+  margin-top: 140px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.hero-wrapper {
+  display: flex;
+}
+.hero-content {
+  width: 50%;
+  padding: 20px 75px 0 0;
+}
+.hero-image {
+  width: 50%;
+  padding: 75px;
+}
+p {
+  color: #444;
+}
+h3 {
+  margin-bottom: 20px;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 7px 13px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.hero-area {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.hero-area2 {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hero-area2 .hero-image {
+  padding: 100px;
+}
+.hero-area2 .hero-content {
+  padding-top: 45px;
+}
+.half-width {
+  width: 670px;
+  height: 400px;
+  box-shadow: 10px 10px 40px gray;
+  padding: 40px;
+  border-radius: 4px;
+}
+.half-width:first-child {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.half-width:last-child {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, cyan, blue);
+  border-image-slice: 1;
+}
+.df .hero-wrapper {
+  justify-content: space-between;
+}
+.exp-sec {
+  padding: 50px 0;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-bottom: 150px;
+}
+footer {
+  padding: 15px 0;
+  text-align: center;
+}
